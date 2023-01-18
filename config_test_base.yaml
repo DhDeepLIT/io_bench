@@ -1,0 +1,15 @@
+# Execution parameters
+seed: 42
+use_amp: false
+debug: false
+num_workers: 16
+
+transform: coherence-sar  # default or coherence-sar
+
+# I/O
+#train_csv: /nas/DATA/RECEIVED/sen12ts/sen12ts_v1/train_stratif_dataset_s1_buildup_final.csv
+train_csv: tmp_uint8/merge_final_underscore.csv
+#train_csv: /nas/DATA/datasets/Boat_SPIP/boats_train_segm.csv
+output_dir: /somewhere
+
+batch_size: 120
